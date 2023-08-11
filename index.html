@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OutingBD</title>
+    <!-- Font awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Work Sans Font CDN -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,7 +40,7 @@
     <!-- Header -->
     <header>
       <!-- navbar starts -->
-      <div class="navbar bg-base-100 fixed">
+      <div class="navbar bg-base-100 fixed z-20">
         <div class="navbar-start">
           <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -88,8 +90,30 @@
       <!-- Banner Ends -->
     </header>
     <!-- Main sections  -->
-    <main>
-
+    <main class="container m-auto mt-14 lg:mt-28">
+      <!-- About us section starts -->
+      <section class="flex flex-col lg:flex-row gap-14">
+        <div style="background-image: url('images/about-us.jpg'); background-size: cover;" class="w-3/4 m-auto lg:w-1/2 h-48 md:h-96">
+        </div>
+        <div class="w-3/4 m-auto lg:w-1/2 h-96">
+            <h3 class="text-primary-color font-semibold text-2xl text-center lg:text-left">About Us</h3>
+            <hr class="w-36 border-t-4 border-primary-color text-primary-color mb-3 block mx-auto lg:mx-0">
+            <h3 class="text-secondary-color font-bold text-5xl mb-3 text-center lg:text-left">Welcome to Outing<span class="text-primary-color">BD</span></h3>
+            <p class="text-center lg:text-justify text-secondary-color text-base font-semibold mb-5">At OutingBD, we believe that travel is not just about visiting new places; it's about creating unforgettable experiences, forging lasting connections, and embracing the beauty of diverse cultures. <br><br> Established with a passion for exploration, OutingBD is more than just a travel company  it's a companion for your wanderlust, a curator of remarkable adventures, and a bridge between dreams and reality.</p>
+            <h3 class="text-secondary-color font-semibold text-2xl mb-3  text-center lg:text-left">Why Choose Us?</h3>
+            <div class="grid grid-cols-1 grid-cols md:grid-cols-2 w-3/4 m-auto lg:m-0 items-center gap-2">
+              <div class="text-secondary-color font-semibold flex gap-2 items-center"><i class="fa-solid fa-arrow-right text-primary-color"></i>Passionate Experts
+              </div>
+              <div class="text-secondary-color font-semibold flex gap-2 items-center"><i class="fa-solid fa-arrow-right text-primary-color"></i>Commitments 
+              </div>
+              <div class="text-secondary-color font-semibold flex gap-2 items-center"><i class="fa-solid fa-arrow-right text-primary-color"></i>Local Immersion
+              </div>
+              <div class="text-secondary-color font-semibold flex gap-2 items-center"><i class="fa-solid fa-arrow-right text-primary-color"></i>Safety First 
+              </div>
+            </div>
+        </div>
+      </section>
+      <!-- About us section ends -->
     </main>
     <!-- Footer -->
     <footer>
