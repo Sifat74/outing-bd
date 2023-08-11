@@ -38,7 +38,7 @@
     <!-- Header -->
     <header>
       <!-- navbar starts -->
-      <div class="navbar bg-base-100">
+      <div class="navbar bg-base-100 fixed">
         <div class="navbar-start">
           <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -50,19 +50,17 @@
               <li><a>Service</a></li>
               <li><a>Packages</a></li>
               <li><a>Contact</a></li>
-              <li><a>Register</a></li>
             </ul>
           </div>
          <img class="w-32" src="images/logo.png" alt="logo">
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1 text-secondary-color font-semibold text-lg">
-            <li><a class="hover:bg-primary-color hover:text-white">Home</a></li>
-            <li><a class="hover:bg-primary-color hover:text-white">About</a></li>
-            <li><a class="hover:bg-primary-color hover:text-white">Service</a></li>
-            <li><a class="hover:bg-primary-color hover:text-white">Packages</a></li>
-            <li><a class="hover:bg-primary-color hover:text-white">Contact</a></li>
-            <li><a class="hover:bg-primary-color hover:text-white">Register</a></li>
+            <li><a class="hover:bg-transparent hover:text-primary-color">Home</a></li>
+            <li><a class="hover:bg-transparent hover:text-primary-color">About</a></li>
+            <li><a class="hover:bg-transparent hover:text-primary-color">Service</a></li>
+            <li><a class="hover:bg-transparent hover:text-primary-color">Packages</a></li>
+            <li><a class="hover:bg-transparent hover:text-primary-color">Contact</a></li>
             <a class="btn bg-primary-color font-semibold text-lg ml-2 hover:bg-primary-hover text-white">Register</a>
           </ul>
         </div>
@@ -71,6 +69,23 @@
         </div>
       </div>
       <!-- navbar ends -->
+      <!-- Banner Starts -->
+      <div class="hero min-h-screen" style="background-image: url('images/banner.jpg');">
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="hero-content text-center">
+          <div class="max-w-full">
+            <h1 class="mb-5 text-6xl font-extrabold text-white capitalize">Enjoy Your Trip With Us</h1>
+            <p class="mb-5 text-white text-3xl font-semibold">Discover Worthy Travel Moments</p>
+            <div class="form-control flex relative">
+               <input type="text" placeholder="Search" class="input input-bordered w-full md:w-auto rounded-3xl h-16"/>
+              <div class="absolute end-0 m-2">
+                <a class="btn w-24 text-center bg-primary-color font-semibold text-sm hover:bg-primary-hover text-white rounded-3xl">Search</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Banner Ends -->
     </header>
     <!-- Main sections  -->
     <main>
