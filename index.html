@@ -30,11 +30,7 @@
         }
       </script> 
     <!-- Css styles -->
-    <style>
-        body{
-            font-family: 'Work Sans', sans-serif;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Header -->
@@ -92,12 +88,13 @@
     <!-- Main sections  -->
     <main class="container m-auto mt-14 lg:mt-28">
       <!-- About us section starts -->
-      <section class="flex flex-col lg:flex-row gap-14">
+      <section class="flex flex-col lg:flex-row gap-14 mb-14 lg:mb-28">
         <div style="background-image: url('images/about-us.jpg'); background-size: cover;" class="w-3/4 m-auto lg:w-1/2 h-48 md:h-96">
         </div>
-        <div class="w-3/4 m-auto lg:w-1/2 h-96">
+        <div class="w-3/4 m-auto lg:w-1/2 lg:h-96">
             <h3 class="text-primary-color font-semibold text-2xl text-center lg:text-left">About Us</h3>
-            <hr class="w-36 border-t-4 border-primary-color text-primary-color mb-3 block mx-auto lg:mx-0">
+            <hr class="w-36 border-t-2 border-primary-color text-primary-color mb-1 block mx-auto lg:mx-0">
+            <hr class="w-36 border-t-2 border-primary-color text-primary-color mb-3 block mx-auto lg:mx-0">
             <h3 class="text-secondary-color font-bold text-5xl mb-3 text-center lg:text-left">Welcome to Outing<span class="text-primary-color">BD</span></h3>
             <p class="text-center lg:text-justify text-gray-500 text-base font-semibold mb-5">At OutingBD, we believe that travel is not just about visiting new places; it's about creating unforgettable experiences, forging lasting connections, and embracing the beauty of diverse cultures.
             <h3 class="text-secondary-color font-semibold text-3xl mb-3  text-center lg:text-left">Why Choose Us?</h3>
@@ -117,6 +114,62 @@
         </div>
       </section>
       <!-- About us section ends -->
+      <!-- Services section starts -->
+      <section class="w-3/4 lg:w-full mx-auto  mb-14 lg:mb-28">
+        <div>
+          <h3 class="text-primary-color font-semibold text-2xl text-center">Services</h3>
+          <hr class="w-36 border-t-2 border-primary-color text-primary-color mb-1 block mx-auto">
+          <hr class="w-36 border-t-2 border-primary-color text-primary-color mb-3 block mx-auto">
+          <h3 class="text-secondary-color font-bold text-5xl mb-8 text-center">Our Services</h3>
+        </div>
+        <div class="flex flex-col gap-8">
+          <div class="flex flex-col lg:flex-row gap-8">
+            <div class="service-card shadow-2xl bg-white hover:bg-primary-color h-64 p-6 flex flex-col gap-3 rounded-lg">
+              <i class="service-item fa-solid fa-earth-americas text-5xl text-primary-color"></i>
+              <h3 class="service-item text-2xl font-bold text-secondary-color">CountryWide Tours</h3>
+              <p class="service-item text-gray-500 font-semibold">Embark on an unforgettable nationwide journey, exploring diverse landscapes and cultures.</p>
+            </div>
+            <div class="service-card shadow-2xl bg-white hover:bg-primary-color h-64 p-6 flex flex-col gap-3 rounded-lg">
+              <i class="fa-solid fa-hotel service-item text-5xl text-primary-color"></i>
+              <h3 class="service-item text-2xl font-bold text-secondary-color">Hotel Reservation</h3>
+              <p class="service-item text-gray-500 font-semibold">Secure your comfort and luxury with a seamless hotel reservation experience today.</p>
+            </div>
+            <div class="service-card shadow-2xl bg-white hover:bg-primary-color h-64 p-6 flex flex-col gap-3 rounded-lg">
+              <i class="fa-solid fa-person service-item text-5xl text-primary-color"></i>
+              <h3 class="service-item text-2xl font-bold text-secondary-color">Travel Guides</h3>
+              <p class="service-item text-gray-500 font-semibold">Expert travel guides offering insights, tips, and hidden gems for unforgettable journeys.</p>
+            </div>
+            <div class="service-card shadow-2xl bg-white hover:bg-primary-color h-64 p-6 flex flex-col gap-3 rounded-lg">
+              <i class="fa-solid fa-gear service-item text-5xl text-primary-color"></i>
+              <h3 class="service-item text-2xl font-bold text-secondary-color">Event Management</h3>
+              <p class="service-item text-gray-500 font-semibold">From concept to execution, we orchestrate events that leave lasting impressions.</p>
+            </div>
+          </div>
+          <div class="flex flex-col lg:flex-row gap-8">
+            <div class="service-card shadow-2xl bg-white hover:bg-primary-color h-64 p-6 flex flex-col gap-3 rounded-lg">
+              <i class="fa-solid fa-plane service-item text-5xl text-primary-color"></i>
+              <h3 class="service-item text-2xl font-bold text-secondary-color">Best Transportation</h3>
+              <p class="service-item text-gray-500 font-semibold">Effortless transportation solutions, ensuring a smooth and comfortable journey to your destination.</p>
+            </div>
+            <div class="service-card shadow-2xl bg-white hover:bg-primary-color h-64 p-6 flex flex-col gap-3 rounded-lg">
+              <i class="fa-solid fa-glasses service-item text-5xl text-primary-color"></i>
+              <h3 class="service-item text-2xl font-bold text-secondary-color">Travelling Items</h3>
+              <p class="service-item text-gray-500 font-semibold">Discover essential travel items for a convenient and enjoyable journey anywhere you go.</p>
+            </div>
+            <div class="service-card shadow-2xl bg-white hover:bg-primary-color h-64 p-6 flex flex-col gap-3 rounded-lg">
+              <i class="fa-solid fa-book service-item text-5xl text-primary-color"></i>
+              <h3 class="service-item text-2xl font-bold text-secondary-color">Tour Books</h3>
+              <p class="service-item text-gray-500 font-semibold">Immerse yourself in captivating worlds through travel books that ignite wanderlust and curiosity.</p>
+            </div>
+            <div class="service-card shadow-2xl bg-white hover:bg-primary-color h-64 p-6 flex flex-col gap-3 rounded-lg">
+              <i class="fa-solid fa-camera service-item text-5xl text-primary-color"></i>
+              <h3 class="service-item text-2xl font-bold text-secondary-color">Tour Photoshot</h3>
+              <p class="service-item text-gray-500 font-semibold">Capture memories in stunning locations with a mesmerizing travel photoshoot for cherished moments.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Services section ends -->
     </main>
     <!-- Footer -->
     <footer>

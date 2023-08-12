@@ -1,0 +1,6 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.service-card:hover .service-item{
+    color: #fff;
+}
